@@ -11,6 +11,10 @@
 5. selector combinations -> <h1 id="id-name" class="class-name> -> #id-name.class-name { color:"red" }
 6. * {color:"Red"}
 
+# Load Stylesheet
+1. inline style -> <h1 style="color:red">
+2. style element -> <head><style> .blue { color:red} </style></head>
+3. External Style sheet -> <head><link rel="stylesheet" href="url"/></head>
 
 # Syntax
 selector {
