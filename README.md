@@ -13,7 +13,7 @@
 
 # Load Stylesheet
 1. inline style -> <h1 style="color:red">
-2. style element -> <head><style> .blue { color:red} </style></head>
+2. intternal Style sheet -> <head><style> .blue { color:red} </style></head>
 3. External Style sheet -> <head><link rel="stylesheet" href="url"/></head>
 
 # Syntax
