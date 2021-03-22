@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Display vs Visability</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      .parent {
+        height: 1000px;
+        width: 1000px;
+        background-color: green;
+        padding: 30px;
+        border: 5px solid black;
+        margin-top: 30px;
+        margin-left: 30px;
+        border-radius: 25px;
+      }
+      .child1 {
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        padding: 30px;
+        border: 5px solid black;
+        margin-top: 30px;
+        margin-left: 30px;
+        border-radius: 25px;
+        display: inline-block;
+      }
+      .child2 {
+        height: 100px;
+        width: 100px;
+        background-color: yellow;
+        padding: 30px;
+        border: 5px solid black;
+        margin-top: 30px;
+        margin-left: 30px;
+        border-radius: 25px;
+        display: inline-block;
+      }
+      .child3 {
+        height: 100px;
+        width: 100px;
+        background-color: yellow;
+        padding: 30px;
+        border: 5px solid black;
+        margin-top: 30px;
+        margin-left: 30px;
+        border-radius: 25px;
+        display: inline-block; /* inline-block -Horzantal, block - box display in block */
+        /*display: none - romoved DOM vs visibility: hidden - Its nt removed*/
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child1">
+        <p>Child1</p>
+      </div>
+      <div class="child2">
+        <p>Child2</p>
+      </div>
+      <div class="child3">
+        <p>Child3</p>
+      </div>
+    </div>
+  </body>
+</html>
