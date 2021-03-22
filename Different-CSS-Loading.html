@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Different-CSS-Loading</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link ref="stylesheet" ahref="style.css" />
+  </head>
+
+  <body>
+    <h1 style="color: red">Inline Style Sheet</h1>
+
+    <h3>Internal Style Sheet</h3>
+
+    <h5>External Style Sheet</h5>
+
+    <!-- Priority of CSS Loading 1. Inline 2. Internal 3. External-->
+    <h6 style="color: red">
+      Priority of CSS Loading 1. Inline 2. Internal 3. External
+    </h6>
+
+    <!-- Priority of CSS Loading 1. Inline 2. Internal 3. External-->
+    <h4">
+      Give more priority External Style sheet - Using !important
+    </h4>
+  </body>
+  <style>
+    h3,
+    h4,
+    h6 {
+      color: green;
+    }
+  </style>
+</html>
